@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Simple Test Suite for aws practice" duration-ms="36452" started-at="2020-07-12T22:18:08Z" finished-at="2020-07-12T22:18:44Z">
+    <groups>
+    </groups>
+    <test name="Chrome Tests" duration-ms="21415" started-at="2020-07-12T22:18:08Z" finished-at="2020-07-12T22:18:29Z">
+      <class name="freshworks.FreshworksTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:freshworks.FreshworksTest@37b70343]" name="setup" is-config="true" duration-ms="6569" started-at="2020-07-12T22:18:08Z" finished-at="2020-07-12T22:18:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="freshWorksTitleTest()[pri:0, instance:freshworks.FreshworksTest@37b70343]" name="freshWorksTitleTest" duration-ms="1647" started-at="2020-07-12T22:18:14Z" finished-at="2020-07-12T22:18:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- freshWorksTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:freshworks.FreshworksTest@37b70343]" name="tearDown" is-config="true" duration-ms="397" started-at="2020-07-12T22:18:16Z" finished-at="2020-07-12T22:18:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:freshworks.FreshworksTest@37b70343]" name="setup" is-config="true" duration-ms="3887" started-at="2020-07-12T22:18:16Z" finished-at="2020-07-12T22:18:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getFooterLinksTest()[pri:0, instance:freshworks.FreshworksTest@37b70343]" name="getFooterLinksTest" duration-ms="8395" started-at="2020-07-12T22:18:20Z" finished-at="2020-07-12T22:18:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFooterLinksTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:freshworks.FreshworksTest@37b70343]" name="tearDown" is-config="true" duration-ms="317" started-at="2020-07-12T22:18:29Z" finished-at="2020-07-12T22:18:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- freshworks.FreshworksTest -->
+    </test> <!-- Chrome Tests -->
+    <test name="Firefox Tests" duration-ms="36452" started-at="2020-07-12T22:18:08Z" finished-at="2020-07-12T22:18:44Z">
+      <class name="freshworks.FreshworksTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:freshworks.FreshworksTest@3b956878]" name="setup" is-config="true" duration-ms="10672" started-at="2020-07-12T22:18:08Z" finished-at="2020-07-12T22:18:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="freshWorksTitleTest()[pri:0, instance:freshworks.FreshworksTest@3b956878]" name="freshWorksTitleTest" duration-ms="347" started-at="2020-07-12T22:18:18Z" finished-at="2020-07-12T22:18:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- freshWorksTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:freshworks.FreshworksTest@3b956878]" name="tearDown" is-config="true" duration-ms="4128" started-at="2020-07-12T22:18:19Z" finished-at="2020-07-12T22:18:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:freshworks.FreshworksTest@3b956878]" name="setup" is-config="true" duration-ms="8681" started-at="2020-07-12T22:18:23Z" finished-at="2020-07-12T22:18:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getFooterLinksTest()[pri:0, instance:freshworks.FreshworksTest@3b956878]" name="getFooterLinksTest" duration-ms="7665" started-at="2020-07-12T22:18:31Z" finished-at="2020-07-12T22:18:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFooterLinksTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:freshworks.FreshworksTest@3b956878]" name="tearDown" is-config="true" duration-ms="4913" started-at="2020-07-12T22:18:39Z" finished-at="2020-07-12T22:18:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- freshworks.FreshworksTest -->
+    </test> <!-- Firefox Tests -->
+  </suite> <!-- Simple Test Suite for aws practice -->
+</testng-results>

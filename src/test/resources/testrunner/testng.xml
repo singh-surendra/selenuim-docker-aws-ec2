@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Simple Test Suite for aws practice" verbose="2"
+            thread-count="3" parallel="tests">
+    <test name="Chrome Tests">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="freshworks.FreshworksTest"/>
+        </classes>
+    </test>
+
+    <test name="Firefox Tests">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="freshworks.FreshworksTest"/>
+        </classes>
+    </test>
+</suite>
