@@ -2,7 +2,7 @@
 
 ### Setup Instructions : 
  ####  Create an AWS EC-2 instance : 
- Pick up a linux machine where docker is already available, Security Groups : add rule Add rule for “Custom TCP Rule” : port range : 4444, anywhere
+ Pick up a linux machine where docker is already available, Security Groups : Add extra rule for “Custom TCP Rule” : port range : 4444, anywhere
  ####  How to access ec2 instance from terminal :   
 1.  Open terminal - Go to the folder where .pem file (private key pair) is placed
 2. Give permission to this file :  chmod 400 my-key-pair.pem
@@ -25,7 +25,8 @@ https://github.com/SeleniumHQ/docker-selen
 
 
 #### To access from local browser : 
-publicIP:4444/grid/hub
+publicIP:4444/grid/hub 
+("publicIP" is available in instance description section from aws instance)
 
 #### How to scale up specific browser instances : 
 To scale up browser containers (total 5 chrome browsers) : docker-compose scale chrome=5
