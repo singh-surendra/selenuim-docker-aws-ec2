@@ -18,7 +18,7 @@
         <webdrivermanager.version>3.8.1</webdrivermanager.version>
         <maven-surefire-plugin.version>2.20</maven-surefire-plugin.version>
         <maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
-        <commons-io.version>2.6</commons-io.version>
+        <commons-io.version>2.7</commons-io.version>
         <slf4j-api.version>1.7.5</slf4j-api.version>
         <slf4j-simple.version>1.6.4</slf4j-simple.version>
         <validation-api.version>2.0.1.Final</validation-api.version>
