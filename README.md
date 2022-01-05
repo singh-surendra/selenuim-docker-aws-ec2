@@ -39,6 +39,8 @@ To scale up browser containers (total 5 chrome browsers) : docker-compose scale 
 1. Run from terminal : docker-compose down
 2. Terminate the instance from aws instances
 
+Happy learning :)
+
 #### Contact Info: [LinkedIn](https://www.linkedin.com/in/surendra-singh-db/)
 
 
